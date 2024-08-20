@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <h1>Kuis</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li><a href="hidrolik.html" class="nav-link">Hidrolik</a></li>
+                    <li><a href="pneumatik.html" class="nav-link">Pneumatik</a></li>
+                    <li><a href="forum.html" class="nav-link">Forum</a></li>
+                    <li><a href="quiz.html" class="nav-link">Kuis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="quiz-section">
+        <h2>Kuis Pengetahuan</h2>
+        <form id="quizForm">
+            <div class="question">
+                <h3>1. Apa fungsi pompa dalam sistem hidrolik?</h3>
+                <label><input type="radio" name="q1" value="a"> Mengatur aliran udara</label>
+                <label><input type="radio" name="q1" value="b"> Mengubah energi listrik menjadi energi mekanik</label>
+                <label><input type="radio" name="q1" value="c"> Menyediakan aliran fluida bertekanan</label>
+                <label><input type="radio" name="q1" value="d"> Mengurangi kebisingan dalam sistem</label>
+            </div>
+            <div class="question">
+                <h3>2. Manakah dari berikut ini yang merupakan komponen utama dari sistem pneumatik?</h3>
+                <label><input type="radio" name="q2" value="a"> Pompa, katup, dan silinder</label>
+                <label><input type="radio" name="q2" value="b"> Kompresor, katup, dan silinder</label>
+                <label><input type="radio" name="q2" value="c"> Motor listrik, gear, dan pompa</label>
+                <label><input type="radio" name="q1" value="d"> Tangki, pompa, dan gear</label>
+            </div>
+            <div class="question">
+                <h3>3. Sistem hidrolik menggunakan fluida apa?</h3>
+                <label><input type="radio" name="q1" value="a"> Udara terkompresi</label>
+                <label><input type="radio" name="q1" value="b"> Oli atau minyak hidrolik</label>
+                <label><input type="radio" name="q1" value="c"> Air</label>
+                <label><input type="radio" name="q1" value="d"> Gas Alam</label>
+            </div>
+            <div class="question">
+                <h3>4. Apa perbedaan utama antara sistem hidrolik dan sistem pneumatik?</h3>
+                <label><input type="radio" name="q2" value="a"> Hidrolik menggunakan cairan sedangkan pneumatik menggunakan udara yang terkompresi</label>
+                <label><input type="radio" name="q2" value="b"> Hidrolik lebih murah daripada pneumatik</label>
+                <label><input type="radio" name="q2" value="c"> Pneumatik lebih kuat daripada hidrolik</label>
+                <label><input type="radio" name="q1" value="d"> Pneumatik menggunakan cairan sedangkan Hidrolik menggunakan udara yang terkompresi</label>
+            </div>
+            <div class="question">
+                <h3>5. Apa yang terjadi jika ada udara yang terjebak dalam sistem hidrolik?</h3>
+                <label><input type="radio" name="q1" value="a"> Sistem akan bekerja lebih cepat</label>
+                <label><input type="radio" name="q1" value="b"> Sistem akan bekerja lebih bagus</label>
+                <label><input type="radio" name="q1" value="c"> Mengalami penurunan performa pada sistem</label>
+                <label><input type="radio" name="q1" value="d"> Tidak ada efek apapun</label>
+            </div>
+            <button type="submit" class="btn-primary">Kirim Kuis</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pembelajaran Hidrolik dan Pneumatik. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><img src="assets/icons/instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="#"><img src="assets/icons/gmail.png" alt="Gmail" class="social-icon"></a>
+            <a href="#"><img src="assets/icons/telepon.png" alt="Telepon" class="social-icon"></a>
+        </div>
+    </footer>
+</body>
+</html>

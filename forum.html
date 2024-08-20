@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Diskusi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <h1>Forum Diskusi</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li><a href="hidrolik.html" class="nav-link">Hidrolik</a></li>
+                    <li><a href="pneumatik.html" class="nav-link">Pneumatik</a></li>
+                    <li><a href="forum.html" class="nav-link">Forum</a></li>
+                    <li><a href="quiz.html" class="nav-link">Kuis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="forum-section">
+        <h2>Diskusikan Masalah Anda</h2>
+        <div class="forum-posts">
+        <form id="postForm">
+            <h3>Buat Postingan Baru</h3>
+            <label for="postTitle">Judul:</label>
+            <input type="text" id="postTitle" name="postTitle" required>
+            <label for="postContent">Isi:</label>
+            <textarea id="postContent" name="postContent" required></textarea>
+            <button type="submit" class="btn-primary">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pembelajaran Hidrolik dan Pneumatik. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><img src="assets/icons/instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="#"><img src="assets/icons/gmail.png" alt="Gmail" class="social-icon"></a>
+            <a href="#"><img src="assets/icons/telepon.png" alt="Telepon" class="social-icon"></a>
+        </div>
+    </footer>
+</body>
+</html>
